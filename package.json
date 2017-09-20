@@ -1,0 +1,37 @@
+{
+  "name": "box-digest-service",
+  "version": "1.0.0",
+  "description": "Nodejs Box service file digest service",
+  "main": "box-digest.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enmaso/box-digest-service.git"
+  },
+  "keywords": [
+    "nodejs",
+    "box",
+    "oauth",
+    "express"
+  ],
+  "author": "Enmaso, Inc.",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/enmaso/box-digest-service/issues"
+  },
+  "homepage": "https://github.com/enmaso/box-digest-service#readme",
+  "devDependencies": {
+    "nodemon": "1.12.1",
+    "standard": "10.0.3"
+  },
+  "dependencies": {
+    "async": "2.5.0",
+    "aws-sdk": "2.119.0",
+    "box-node-sdk": "1.9.0",
+    "dotenv": "4.0.0",
+    "mongoose": "4.11.12",
+    "sqs-consumer": "3.7.0"
+  }
+}
